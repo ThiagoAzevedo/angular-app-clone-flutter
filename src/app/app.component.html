@@ -1,0 +1,12 @@
+<main class="main">
+
+    <app-tool></app-tool>
+    <app-header [title]='title'></app-header>
+
+    <section class="center-app">
+      <app-text-center [text]="text"></app-text-center>
+      <app-count [count]="count"></app-count>
+    </section>
+
+    <app-action (event)="onClick($event)"></app-action>
+</main>

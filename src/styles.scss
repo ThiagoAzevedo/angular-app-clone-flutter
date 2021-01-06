@@ -1,0 +1,96 @@
+/* You can add global styles to this file, and also import other style files */
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main {
+    // min-width: 45vw;
+    max-width: 50vw;
+    height: 85vh;
+    margin: 5% auto;
+    border: 5px solid #616161;
+    border-radius: 7px;
+    position: relative;
+
+    .tool-app {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #1470b6;
+        color: #fff;
+        padding: 0 5px;
+
+        .flex {
+
+            .list {
+                display: flex;
+                align-items: center;
+                list-style-type: none;
+            }
+        }
+    }
+
+    .header-app {
+        background-color: #2296f3;
+        color: #fff;
+        padding: 15px;
+    }
+
+    .center-app {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%);
+
+        .text {
+            color: #7b7b7b;
+            
+            &.text-center {
+                font-size: 0.875rem;
+                text-align: center;
+            }
+
+            &.count-app {
+                font-size: 1.5rem;
+                font-weight: 700;
+                text-align: center;
+            }
+        }
+    }
+
+    .action-app {
+        position: absolute;
+        right: 30px;
+        bottom: 30px;
+        padding: 20px;
+
+        &.reset {
+            background-color: transparent;
+            border: none;
+        }
+
+        &.format {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            width: 45px;
+            height: 45px;
+            background-color: #2296f3;
+            border-radius: 50%;
+            color: #fff;
+            box-shadow: 0px 0px 25px rgba(0,0,0,0.3);
+        }
+
+        .material-icons {
+            margin-top: -5px;
+        }
+    }
+}
+
+.material-icons {
+    font-size: 1rem;
+}
