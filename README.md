@@ -2,7 +2,7 @@
 
 Neste projeto fiz um clone do primeiro app que é criado ao iniciar o Flutter.
 
-![](assets/images/app.PNG)
+![](src/assets/images/app.PNG)
 
 # AngularApp
 
