@@ -1,3 +1,7 @@
+# Projeto Angular App - Clone Flutter
+
+Neste projeto fiz um clone do primeiro app que é criado ao iniciar o Flutter.
+
 # AngularApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.10.
